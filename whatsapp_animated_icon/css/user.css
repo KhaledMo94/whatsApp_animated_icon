@@ -1,0 +1,43 @@
+#footerIcon{
+    position: fixed;
+    background-color: rgb(74, 197, 97) ;
+    border-radius: 50% ;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s ease-in;
+    border:2px rgba(74, 197, 97,0.2);
+
+}
+#footerIcon:hover{
+    background-color: rgb(52, 134, 67);
+}
+@media screen and (max-width:576px) {
+    #footerIcon{
+        width:50px;
+        height:50px;
+    }
+    #footerIcon i{
+        font-size: 2.2rem;
+        font-weight: 500;
+    }
+}
+@media only screen and (min-width:576px){
+    #footerIcon{
+        width :65px;
+        height: 65px;
+    }
+    #footerIcon i{
+        font-size: 2.8rem;
+        font-weight: 500;
+    }
+}
+.blurring{
+    box-shadow: 0 0 0 1px #a0a2a3, 0 0 0 1px #a0a2a3;
+    margin: 5px;
+    animation: blur 0.8s infinite alternate-reverse;
+}
+@keyframes blur {
+    0% {box-shadow: 0 0 0 1px #a0a2a3, 0 0 0 1px #a0a2a3;}
+    100% {box-shadow: 0 0 0 3px #a0a2a3, 0 0 0 3px #a0a2a3;}
+} 

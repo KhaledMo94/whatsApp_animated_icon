@@ -1,0 +1,24 @@
+.whatAppIcon{
+    font-size: larger;
+}
+
+.whatAppIcon form div{
+    width :100%;
+    margin :1rem;
+}
+
+.whatAppIcon form input[type="submit"]{
+    position:fixed;
+    right:2rem;
+    bottom: 1.5rem;
+    background-color: blue;
+    color:white;
+    padding :0.5rem;
+    font-size: 22px;
+    font-weight: 600;
+    border:0;
+    border-radius: 5px;
+}
+.whatAppIcon form input[type="submit"]:hover{
+    opacity: 0.8;
+}
