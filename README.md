@@ -15,3 +15,4 @@ this plugin contain the following features:
 
      Hopping this plugin reach your approbation
      khaledyoosef94@gmail.com
+    datascientist.kh94@gmail.com
